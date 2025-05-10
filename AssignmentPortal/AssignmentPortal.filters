@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{80dbb61a-5bbc-49a8-b4a1-d08745c15fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Data">
+      <UniqueIdentifier>{e6710071-a472-4df3-b977-edf85093ccc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="School">
+      <UniqueIdentifier>{e3e9e9b8-fe57-42b3-8116-891e9b60d6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428">
+      <UniqueIdentifier>{a9772064-3fcb-4202-9aaa-049d89cd975c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments">
+      <UniqueIdentifier>{3f7b951c-01fa-48d9-a7a4-9c946fca0437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week10">
+      <UniqueIdentifier>{e13f98ee-6345-4401-9703-c5c3666714ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week09">
+      <UniqueIdentifier>{6f9ad32a-3915-441e-b598-005ac45713cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week08">
+      <UniqueIdentifier>{513f7d4b-20af-4ead-9f10-379f57f86dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week07">
+      <UniqueIdentifier>{090ed4d5-4924-48c5-b169-fd4da3925a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week06">
+      <UniqueIdentifier>{e3566346-8802-43a5-8e19-cf1bc540e4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week05">
+      <UniqueIdentifier>{ee0f4e25-557d-4527-bfee-a9e9911eb52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week04">
+      <UniqueIdentifier>{70301465-3637-4479-9189-2314741fb357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week03">
+      <UniqueIdentifier>{67871531-25d7-4cc3-a34b-18d48590d0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week02">
+      <UniqueIdentifier>{bb5bb968-07f4-4e61-9322-3db426ac2d99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="School\Class428\Assignments\Week01">
+      <UniqueIdentifier>{fd0d3495-d937-4832-a694-998a41da194f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Base">
+      <UniqueIdentifier>{7fdcf218-8804-4e42-854e-0fd0b1eb2732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{a323d63f-4629-4c1b-bfe3-c3de3cf0a6e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalCore.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="WinderDataTable.h">
+      <Filter>Engine\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Class428.h">
+      <Filter>School\Class428</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorldProgram.h">
+      <Filter>School\Class428\Assignments\Week01</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffeeProgram.h">
+      <Filter>School\Class428\Assignments\Week02</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="WinderEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClassManager.h">
+      <Filter>School</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssignmentPortal.cpp" />
+    <ClCompile Include="WinderDataTable.cpp">
+      <Filter>Engine\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalCore.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorldProgram.cpp">
+      <Filter>School\Class428\Assignments\Week01</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffeeProgram.cpp">
+      <Filter>School\Class428\Assignments\Week02</Filter>
+    </ClCompile>
+    <ClCompile Include="Class428.cpp">
+      <Filter>School\Class428</Filter>
+    </ClCompile>
+    <ClCompile Include="WinderEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClassManager.cpp">
+      <Filter>School</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
